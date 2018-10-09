@@ -1,0 +1,173 @@
+/*FONTS*/
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('RobotoCondensed-Regular-webfont.eot');
+    src: url('RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RobotoCondensed-Regular-webfont.woff2') format('woff2'),
+         url('RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronthin';
+    src: url('fonts/Aileron-Thin-webfont.eot');
+    src: url('fonts/Aileron-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aileron-Thin-webfont.woff2') format('woff2'),
+         url('fonts/Aileron-Thin-webfont.woff') format('woff'),
+         url('fonts/Aileron-Thin-webfont.ttf') format('truetype'),
+         url('fonts/Aileron-Thin-webfont.svg#aileronthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronsemibold';
+    src: url('Aileron-SemiBold-webfont.eot');
+    src: url('Aileron-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-SemiBold-webfont.woff2') format('woff2'),
+         url('Aileron-SemiBold-webfont.woff') format('woff'),
+         url('Aileron-SemiBold-webfont.ttf') format('truetype'),
+         url('Aileron-SemiBold-webfont.svg#aileronsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*BODY*/
+
+
+body
+{
+	font-family: 'roboto_condensedregular', Open Sans, Verdana;
+	text-align: left;
+}
+
+a:link 
+{
+ color: #4A684B;
+ text-decoration: underline;
+ }
+
+a:visited 
+{
+ color: gray;
+ }
+
+a:hover 
+{
+ color: ##DEEFDF;
+ text-decoration: none;
+}
+
+a:active, a:focus 
+{
+ color: ##DEEFDF;
+}
+/*TITRES*/
+
+h1
+{
+	font-family: 'roboto_condensedregular', Open Sans, Verdana;
+	font-size: 3em;
+	color: #4A4046;
+	text-transform: uppercase;
+	text-align: left;
+
+
+}
+
+
+/*AUTRE DIV*/
+
+
+
+#blocchat
+{
+	border: 3px solid #6A5C63;
+	width: 50%;
+	padding: 15px;
+	background-color: #E8E5E7;
+}
+
+#zonesaisie
+{
+	border: 1px dashed #30292D;
+	padding: 10px;
+}
+
+#derniers_messages
+{
+	background-color: #86A487;
+	padding-top: 20 px;
+
+}
+
+.button
+{
+	font-size: 16px;
+	color: white;
+	background-color: #08BD35;
+	border: 2px solid white;
+}
+
+
+.titremessage
+{
+	font-size: 20px;
+	font-weight: bold;
+
+
+}
+
+.pseudonyme
+{
+	font-weight: bold;
+	color: #000000;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.date_message
+{
+	font-style: italic;
+	font-weight: bold;
+	color: #4A684B;
+	font-size: 10px;
+	padding-left: 5px;
+}
+
+.reponse
+{
+	color: #DEEFDF;
+	padding: 0px 10px 10px 10px;
+	
+}
+
+.commentaire  
+{
+	font-weight: bold;
+	color: #4A684B;
+	font-size: 12px;
+	padding : 0px 0px 5px 5px;
+	border-bottom: 5px solid #E8E5E7;
+
+}
+
+.bouton_modif 
+{
+	padding:6px 0 6px 0;
+	font:bold 12px ;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
